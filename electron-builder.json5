@@ -1,0 +1,32 @@
+{
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist-electron",
+    "dist"
+  ],
+  "win": {
+    icon: "public/favicon.ico",
+    "target": [
+      {
+        "target": "nsis",
+        "arch": [
+          "x64"
+        ]
+      }
+    ],
+  },
+  publish: [
+    {
+      provider: "generic",
+      url: "http://77.169.210.128:8080/package/icu/",
+    },
+  ],
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true,
+    "deleteAppDataOnUninstall": false
+  }
+}

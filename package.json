@@ -1,0 +1,62 @@
+{
+  "name": "dandelion-icu",
+  "version": "1.0.0",
+  "main": "dist-electron/main/index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development vite",
+    "build": "vite build && electron-builder",
+    "build:dev": "vite build"
+  },
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "@vueuse/core": "^9.5.0",
+    "axios": "^1.1.3",
+    "chokidar": "^3.5.3",
+    "dayjs": "^1.11.6",
+    "default-passive-events": "^2.0.0",
+    "echarts": "^5.4.0",
+    "electron-devtools-installer": "^3.2.0",
+    "element-plus": "^2.2.19",
+    "lodash-es": "^4.17.21",
+    "pinia": "^2.0.23",
+    "pinia-plugin-persist": "^1.0.0",
+    "vue": "^3.2.40",
+    "vue-echarts": "^6.2.3",
+    "vue-router": "^4.1.6",
+    "vxe-table": "^4.3.5",
+    "vxe-table-plugin-element": "^3.0.6",
+    "xe-utils": "^3.5.7"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "cross-env": "^7.0.3",
+    "electron": "^21.1.0",
+    "electron-builder": "^23.3.3",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0",
+    "unplugin-auto-import": "^0.11.4",
+    "vite": "^3.1.4",
+    "vite-electron-plugin": "^0.5.0",
+    "vite-plugin-electron-renderer": "^0.10.1",
+    "vue-global-api": "^0.4.1"
+  },
+  "debug": {
+    "env": {
+      "VITE_DEV_SERVER_URL": "http://127.0.0.1:3344"
+    }
+  },
+  "keywords": [
+    "electron",
+    "rollup",
+    "vite",
+    "vue3",
+    "vue"
+  ]
+}

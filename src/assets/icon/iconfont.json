@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4485682",
+      "name": "最大化",
+      "font_class": "zuidahua",
+      "unicode": "e534",
+      "unicode_decimal": 58676
+    },
+    {
+      "icon_id": "5387522",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "eaf2",
+      "unicode_decimal": 60146
+    },
+    {
+      "icon_id": "11490918",
+      "name": "最小化",
+      "font_class": "zuixiaohua",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "25245936",
+      "name": "入科",
+      "font_class": "ruke",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "28410459",
+      "name": "窗口最大化",
+      "font_class": "chuangkouzuidahua",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    }
+  ]
+}
